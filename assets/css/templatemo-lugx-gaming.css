@@ -1315,6 +1315,76 @@ Shop Page Style
   color: #fff;
 }
 
+/* 
+---------------------------------------------
+Product-details Style
+--------------------------------------------- 
+*/
+
+.product-details h4 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.product-details .left-image {
+  margin-right: 80px;
+}
+
+.product-details .left-image img {
+  border-radius: 25px;
+}
+
+label {
+  display: inline-block;
+  height:50px;
+  width:500px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: #b80c1d;
+  border: 1px solid #b80c1d;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  font-size:17px;
+  font-weight:500;
+  color:#fff;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #820000;
+}
+
+.product-details label:hover {
+  background-color: #a01623;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.product-details form button {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ee626b;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top:30px;
+  margin-left:20px;
+  padding: 0px 25px;
+  border: none;
+  border-radius: 25px;
+  transition: all .3s;
+}
+
+.product-details form button i {
+  margin-right: 5px;
+}
+
+.product-details form button:hover {
+  background-color: #a01623;
+}
 
 /* 
 ---------------------------------------------
@@ -1517,9 +1587,28 @@ Contact PAge Style
   margin-bottom: 10px;
 }
 
+.contact-page .part4  {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+  position: relative;
+  left: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
 .contact-page .part2 p {
   color: #fff;
-  margin-top: 40px;
+  margin-top: 20px;
+  font-size: 16px;
+  float: right;
+}
+
+.contact-page .part4 p {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 35px;
   font-size: 16px;
   float: right;
 }
@@ -1531,10 +1620,36 @@ Contact PAge Style
   margin-bottom: 5px;
 }
 
+.contact-page .part4 span {
+  color: #ee626b;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
 .contact-page .part2 .part-image2 {
   width:85px;
   position: relative;
   margin-left:30px;
+}
+
+.contact-page .part2 .part-image3 {
+  width:50px;
+  position: relative;
+  margin-left:50px;
+  margin-top:10px;
+}
+
+.contact-page .part4 .part-image4 {
+  width:60px;
+  position: relative;
+  margin-left:43px;
+}
+
+.contact-page .part2 .part-image5 {
+  width:70px;
+  position: relative;
+  margin-left:37px;
 }
 
 .contact-page .left-text {
